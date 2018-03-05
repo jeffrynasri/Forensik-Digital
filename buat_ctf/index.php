@@ -6,7 +6,7 @@
 <body>
 	<h1>CTF - Forensik Digital Kel 4</h1>
 	<!-- <a href="#">Steganography</a> -->
-	<img src="download.png" title="<?php echo md5("http://stylesuxx.github.io/steganography/") ?>">
+	<img src="download.png" title="<?php echo "Hint : ".base64_encode("http://stylesuxx.github.io/steganography/") ?>">
 	
 </body>
 </html>
